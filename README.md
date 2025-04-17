@@ -14,4 +14,4 @@ This project focuses on implementing retention cohort analysis using SQL on cust
 
 ## Note
 
-The Dashboard for this project can be found on my Tableau Public Profile, found here: https://public.tableau.com/app/profile/john.nguyen3007#!/?newProfile=&activeTab=0
+The Dashboard for this project can be found on my Tableau Public Profile, found here: https://public.tableau.com/app/profile/john.nguyen3007/viz/CohortRententionDashboard/CohortRententionAnalysis
