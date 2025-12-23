@@ -1,17 +1,12 @@
-# Cohort Retention Analysis with SQL
+# Customer Cohort Retention Analysis
 
-This repository contains SQL scripts and documentation for performing Cohort Retention analysis on customer data. Cohort Retention analysis is a valuable technique for understanding customer behavior over time, tracking customer retention, and identifying opportunities for improvement.
+## Overview
+This project addresses the challenge of long-term customer loyalty by building a 13-month Retention Matrix from over 500,000 e-commerce transactions in MS SQL Server. The technical architecture leverages nested CTEs to define first-purchase cohorts and the PIVOT clause to transform long-form data into a digestible month-over-month decay visualization. The final Tableau heatmap serves as a vital diagnostic tool for product teams, highlighting specific acquisition windows that yielded the highest sustained user engagement.
 
-## About
+A live Tableau dashboard showcasing the insights from this analysis can be accessed here: https://public.tableau.com/app/profile/john.nguyen3007/viz/CohortRententionDashboard/CohortRententionAnalysis
 
-Cohort Retention analysis is a method for studying how different cohorts of customers behave over time. It allows you to answer questions like:
+## Business Questions
 
 - How long do customers typically stay with our product or service?
 - What percentage of customers return after their initial purchase?
 - How does customer behavior change over time within different cohorts?
-
-This project focuses on implementing retention cohort analysis using SQL on customer data.
-
-## Note
-
-The Dashboard for this project can be found on my Tableau Public Profile, found here: https://public.tableau.com/app/profile/john.nguyen3007/viz/CohortRententionDashboard/CohortRententionAnalysis
